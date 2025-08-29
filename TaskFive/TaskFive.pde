@@ -8,9 +8,9 @@ float x;
 float y;
 int counter;
 int rowCounter;
-float red;
-float green;
-float blue;
+int red;
+int green;
+int blue;
 
 void setup() {
   size(400, 400);
@@ -48,7 +48,7 @@ void draw() {
   // 3 % 3 = 0
 
   //Add the code for 6.c here
-  red = counter == 0 ?  random(230) : 255;
-  green = counter == 0 ? random(230) : 255;
-  blue = counter == 0 ? random(230): 255;
+  red = counter == 0 ?  int(random(230)) : 255;
+  green = counter == 0 ? int(random(230)) : 255;
+  blue = counter == 0 ? int(random(230)): 255;
 }
