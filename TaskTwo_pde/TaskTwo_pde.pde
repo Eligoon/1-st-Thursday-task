@@ -7,4 +7,4 @@ float temperature = 22.12;
 println("Hej, jeg heddder "+teachername);
 isItRaining = false;
 float EntranceFee = 2.2 + 33;
-int sun = 'S'; //Char...
+char sun = 'S'; 
