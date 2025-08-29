@@ -4,7 +4,8 @@ String city ="København";
 boolean isItRaining = true;
 int minutesOfDay = 60*24; //kunne være en float
 float temperature = 22.12;
-println("Hej, jeg heddder "+teachername);
+String hello = "Hej, jeg heddder "+teachername;
 isItRaining = false;
 float EntranceFee = 2.2 + 33;
 char sun = 'S'; 
+println(hello);
